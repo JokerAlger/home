@@ -2,23 +2,29 @@
 
 <p><strong><h2>个人主页</h2></strong></p>
 
-> 基于 [imsyy/home v4.1.4](https://github.com/imsyy/home) 进行开发的个人主页。感谢`imsyy`大佬！  
-> `imsyy/home`在移动端上适配不那么理想，我进行了优化并且添加了一些功能。  
-> 我的 [fork](https://github.com/supine0703/imsyy-home) 更接近`imsyy`大佬的原生版本，也可以去我 [Pull request](https://github.com/imsyy/home/pull/315) 的看看。
+> 基于 [imsyy/home v4.1.4](https://github.com/imsyy/home) 进行开发的个人主页，[supine0703/home 1.1.3](https://github.com/imsyy/home)。感谢`imsyy`大佬！  
+> `imsyy/home`在移动端上适配不那么理想，`supine0703`进行了优化并且添加了一些功能。  
+> `supine0703`的 [fork](https://github.com/supine0703/home) 更接近`imsyy`大佬的原生版本，也可以去supine0703 [Pull request](https://github.com/imsyy/home/pull/315) 的看看。
+>
+> 我的[fork](https://github.com/JokerAlger/home)优化了域名过长显示不完全的情况。
 
 ![](./docs/imgs/imlzl.png)
 
 ## 👀 跳转
-- 我的个人主页：[李宗霖的个人主页](https://imlzl.cn)
-- imsyy的个人主页：[無名の主页](https://imsyy.top)
-- 项目部署和基本功能：[imsyy 项目的 README.md](./docs/imsyy-home/README.md)
-- 我的贡献：[#315](https://github.com/imsyy/home/pull/315)
-- 项目前身：[imsyy/home v4.1.4](https://github.com/imsyy/home)
+1. 我的个人主页[JokerAlger的个人主页](https://nextechie.top/)
+2. supine0703的个人主页：[李宗霖的个人主页](https://imlzl.cn)
+3. imsyy的个人主页：[無名の主页](https://imsyy.top)
+4. 项目部署和基本功能：[imsyy 项目的 README.md](./docs/imsyy-home/README.md)
+5. supine0703的贡献：[#315](https://github.com/imsyy/home/pull/315)
+6. 项目前身：[imsyy/home v4.1.4](https://github.com/imsyy/home)和 [supine0703/home](https://github.com/supine0703/home)
 
+## 🎉 我的更改 
 
-## 🎉 我的更改  
+- [优化了域名过长显示不完全的情况](#优化了域名过长显示不完全的情况)
+
+## 🎉 supine0703的更改  
+
 > 更新顺序为从下往上
-- 1
 - [添加公安备案](#添加公安备案)
 - [独立出`Made By`视图](#独立出made-by视图)
 - [解决小屏移动端显示问题](#解决小屏移动端显示问题)
@@ -26,7 +32,11 @@
 - [添加链接悬停效果](#添加链接悬停效果)
 - [其他问题](#其他问题)
 
+### 优化了域名过长显示不完全的情况
+![image-20241022153425240](C:\Users\JokerAlger\AppData\Roaming\Typora\typora-user-images\image-20241022153425240.png)
+
 ### 添加公安备案
+
 配置`.env`如果不需要则为空  
 ![net](./docs/imgs/net.png)
 
