@@ -2,6 +2,21 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://blog.csdn.net/Supine_0"
+    "link": "https://blog.nextechie.top/"
+  },
+  {
+    "icon": "Cloud",
+    "name": "Mirrors",
+    "link": "https://mirror.nextechie.top/"
+  },
+  {
+    "icon": "CompactDisc",
+    "name": "音乐",
+    "link": "https://music.nextechie.top/"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "探针",
+    "link": "https://status.nextechie.top/"
   }
 ]
