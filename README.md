@@ -27,11 +27,11 @@
 
 > 之前：
 
-![image-20241023171010419](C:\Users\JokerAlger\AppData\Roaming\Typora\typora-user-images\image-20241023171010419.png)
+![image-20241023172031319](https://cdn.jsdelivr.net/gh/JokerAlger/Picture@blog/blog/202410231720386.png)
 
 > 之后：
 
-![image-20241023171252500](https://cdn.jsdelivr.net/gh/JokerAlger/Picture@blog/blog/202410231712598.png)
+![image-20241023172105481](https://cdn.jsdelivr.net/gh/JokerAlger/Picture@blog/blog/202410231721541.png)
 
 
 ## 🎉 supine0703的更改  
