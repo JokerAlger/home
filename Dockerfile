@@ -2,8 +2,7 @@
 FROM node:18 AS builder
 WORKDIR /app
 COPY package*.json ./
-#使用淘宝源加速安装
-RUN npm --registry http://mirrors.cloud.tencent.com/npm/ install
+RUN npm install
 COPY . .
 RUN [ ! -e ".env" ] && cp .env.example .env || true
 RUN npm run build
