@@ -48,6 +48,16 @@ const iamlzlHome = {
  _| |_|  __  | |  | | |___ / /__| |___
 |_____|_|  |_|_|  |_|_____|_____|_____|`
 };
+const nextechieHome = {
+  "author": "JokerAlger",
+  "home": "https://nextechie.top",
+  "homeName": "JokerAlgerの主页",
+  "project": "home",
+  "version": "1.1.4",
+  "github": "https://github.com/JokerAlger/home",
+  "logo": "      _           _                       _      _                       \n     | |   ___   | | __   ___   _ __     / \\    | |   __ _    ___   _ __  \n  _  | |  / _ \\  | |/ /  / _ \\ | '__|   / _ \\   | |  / _` |  / _ \\ | '__|\n | |_| | | (_) | |   <  |  __/ | |     / ___ \\  | | | (_| | |  __/ | |   \n  \\___/   \\___/  |_|\\_\\  \\___| |_|    /_/   \\_\\ |_|  \\__, |  \\___| |_|   \n                                                     |___/               "         
+
+};
 
 const infoEqual = (a, b) => {
   return (
@@ -61,7 +71,7 @@ const infoEqual = (a, b) => {
 }
 
 // 检查信息完整性
-let about = mbInfo.about?.length < 2 ? [imsyyHome, iamlzlHome] : mbInfo.about;
+let about = mbInfo.about?.length < 2 ? [imsyyHome, iamlzlHome ,nextechieHome] : mbInfo.about;
 
 const lastEntry = about[about.length - 1];
 const { author, home, name: project, version, github } = config;
